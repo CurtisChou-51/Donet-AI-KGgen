@@ -1,0 +1,21 @@
+﻿
+<div class="input-region">
+    <div>
+        <label for="inputData">Input：</label>
+        <textarea type="text" id="inputData" name="inputData" class="form-control"></textarea>
+    </div>
+    <div style="margin-top: 10px; text-align: right;">
+        <button type="button" class="btn btn-primary" id="btnGen">Generate</button>
+    </div>
+</div>
+<div class="input-region">
+    <div>
+        <label>Graph：</label>
+    </div>
+    <div id="cy"></div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js"></script>
+    <script src="~/js/index.js"></script>
+}
